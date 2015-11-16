@@ -1,0 +1,11 @@
+﻿/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+"Decimal Display" = "Decimal Display";
+
+"Whole #s Only" = "Whole #s Only";
+
+"Angle Unit" = "Angle Unit";
+
+"Radians" = "Radians";
+"Degrees" = "Degrees";
+"Gradians" = "Gradians";

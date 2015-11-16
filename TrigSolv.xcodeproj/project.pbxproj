@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		4E1FE65F0F130B230011DF67 /* TSSolutionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1FE65E0F130B230011DF67 /* TSSolutionViewController.m */; };
+		4E218DE20EDB374C009C18F2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E218DE00EDB374C009C18F2 /* Localizable.strings */; };
+		4E218E190EDB417C009C18F2 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4E218E180EDB417C009C18F2 /* Settings.bundle */; };
+		4E218E570EDB4450009C18F2 /* UIView+FrameProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E218E550EDB4450009C18F2 /* UIView+FrameProperties.m */; };
+		4E8D68DB0EDB7BC800957C30 /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D68DA0EDB7BC800957C30 /* TriangleView.m */; };
+		4E8D68E40EDB7BF700957C30 /* TrapezoidView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D68E30EDB7BF700957C30 /* TrapezoidView.m */; };
+		4E8D68E70EDB7C0700957C30 /* ParallelogramView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D68E60EDB7C0700957C30 /* ParallelogramView.m */; };
+		4E8D68EA0EDB7C1A00957C30 /* EllipseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D68E90EDB7C1A00957C30 /* EllipseView.m */; };
+		4E8D69770EDB90E400957C30 /* RectangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D69760EDB90E400957C30 /* RectangleView.m */; };
+		4E997C840EE33F3700D34E2A /* libJBGeometry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E997C7D0EE33F1300D34E2A /* libJBGeometry.a */; };
+		4EAFDEAF0ED92D64000D6A42 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EAFDEAE0ED92D64000D6A42 /* MainWindow.xib */; };
+		ED71F1400ED258FD0034AF74 /* TrigSolv_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71F13F0ED258FD0034AF74 /* TrigSolv_AppDelegate.m */; };
+		ED71F2240ED25A7D0034AF74 /* Circle_Diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = ED71F14C0ED259150034AF74 /* Circle_Diagram.png */; };
+		ED71F2250ED25A7D0034AF74 /* Circle_Tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = ED71F18B0ED259170034AF74 /* Circle_Tabbar.png */; };
+		ED71F2260ED25A7E0034AF74 /* CircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71F1770ED259170034AF74 /* CircleController.m */; };
+		ED71F2290ED25A810034AF74 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ED71F1440ED259150034AF74 /* Default.png */; };
+		ED71F22A0ED25A820034AF74 /* DefaultViewControllerConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED71F1410ED259150034AF74 /* DefaultViewControllerConfig.plist */; };
+		ED71F22C0ED25A830034AF74 /* Ellipse_Diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = ED71F14D0ED259150034AF74 /* Ellipse_Diagram.png */; };
+		ED71F22D0ED25A850034AF74 /* Ellipse_Tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = ED71F18C0ED259170034AF74 /* Ellipse_Tabbar.png */; };
+		ED71F22E0ED25A860034AF74 /* EllipseController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71F1790ED259170034AF74 /* EllipseController.m */; };
+		ED71F2300ED25A8A0034AF74 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED71F1430ED259150034AF74 /* icon.png */; };
+		ED71F2350ED25A8E0034AF74 /* MeasureEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71F17B0ED259170034AF74 /* MeasureEntryViewController.m */; };
+		ED71F2370ED25A930034AF74 /* Parallelogram_Diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = ED71F14E0ED259150034AF74 /* Parallelogram_Diagram.png */; };
+		ED71F2380ED25A940034AF74 /* Parallelogram_Tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = ED71F18D0ED259170034AF74 /* Parallelogram_Tabbar.png */; };
+		ED71F2390ED25A950034AF74 /* ParallelogramController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71F17D0ED259170034AF74 /* ParallelogramController.m */; };
+		ED71F23C0ED25A980034AF74 /* Rectangle_Diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = ED71F1560ED259160034AF74 /* Rectangle_Diagram.png */; };
+		ED71F23D0ED25A990034AF74 /* Rectangle_Tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = ED71F18E0ED259170034AF74 /* Rectangle_Tabbar.png */; };
+		ED71F23E0ED25A9C0034AF74 /* RectangleController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71F17F0ED259170034AF74 /* RectangleController.m */; };
+		ED71F2400ED25A9E0034AF74 /* redButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ED71F1680ED259170034AF74 /* redButton.png */; };
+		ED71F2430ED25AA10034AF74 /* ShapeController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71F1810ED259170034AF74 /* ShapeController.m */; };
+		ED71F2490ED25AA80034AF74 /* Trapezoid_Tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = ED71F18F0ED259170034AF74 /* Trapezoid_Tabbar.png */; };
+		ED71F24A0ED25AA90034AF74 /* TrapezoidController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71F1870ED259170034AF74 /* TrapezoidController.m */; };
+		ED71F24F0ED25AB60034AF74 /* Triangle_Tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = ED71F1900ED259170034AF74 /* Triangle_Tabbar.png */; };
+		ED71F2500ED25AB70034AF74 /* TriangleController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71F1890ED259170034AF74 /* TriangleController.m */; };
+		ED71F25B0ED25B870034AF74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED71F25A0ED25B870034AF74 /* CoreGraphics.framework */; };
+		ED71F27F0ED25BA90034AF74 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED71F27E0ED25BA90034AF74 /* QuartzCore.framework */; };
+		EDB3C00F0EDCAC1F001E41D2 /* AngleUnitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB3C0050EDCAC1F001E41D2 /* AngleUnitCell.m */; };
+		EDB3C0100EDCAC1F001E41D2 /* ClearValuesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB3C0070EDCAC1F001E41D2 /* ClearValuesCell.m */; };
+		EDB3C0120EDCAC1F001E41D2 /* MeasureDisplayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB3C0090EDCAC1F001E41D2 /* MeasureDisplayCell.m */; };
+		EDB3C0130EDCAC1F001E41D2 /* MeasureEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB3C00C0EDCAC1F001E41D2 /* MeasureEntryCell.m */; };
+		EDB3C0140EDCAC1F001E41D2 /* ShapeDiagramCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB3C00E0EDCAC1F001E41D2 /* ShapeDiagramCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E997C7C0EE33F1300D34E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E997C780EE33F1300D34E2A /* JBGeometry.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = JBGeometry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* TrigSolv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrigSolv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TrigSolv_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigSolv_Prefix.pch; sourceTree = "<group>"; };
+		4E1FE65D0F130B230011DF67 /* TSSolutionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSolutionViewController.h; sourceTree = "<group>"; };
+		4E1FE65E0F130B230011DF67 /* TSSolutionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSolutionViewController.m; sourceTree = "<group>"; };
+		4E218DE40EDB3773009C18F2 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4E218E180EDB417C009C18F2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		4E218E550EDB4450009C18F2 /* UIView+FrameProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameProperties.m"; sourceTree = "<group>"; };
+		4E218E560EDB4450009C18F2 /* UIView+FrameProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameProperties.h"; sourceTree = "<group>"; };
+		4E76B3C50EE31A4D0043476F /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		4E8D68D90EDB7BC800957C30 /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TriangleView.h; path = "Shape Views/TriangleView.h"; sourceTree = "<group>"; };
+		4E8D68DA0EDB7BC800957C30 /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TriangleView.m; path = "Shape Views/TriangleView.m"; sourceTree = "<group>"; };
+		4E8D68E20EDB7BF700957C30 /* TrapezoidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrapezoidView.h; path = "Shape Views/TrapezoidView.h"; sourceTree = "<group>"; };
+		4E8D68E30EDB7BF700957C30 /* TrapezoidView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrapezoidView.m; path = "Shape Views/TrapezoidView.m"; sourceTree = "<group>"; };
+		4E8D68E50EDB7C0700957C30 /* ParallelogramView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParallelogramView.h; path = "Shape Views/ParallelogramView.h"; sourceTree = "<group>"; };
+		4E8D68E60EDB7C0700957C30 /* ParallelogramView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParallelogramView.m; path = "Shape Views/ParallelogramView.m"; sourceTree = "<group>"; };
+		4E8D68E80EDB7C1A00957C30 /* EllipseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EllipseView.h; path = "Shape Views/EllipseView.h"; sourceTree = "<group>"; };
+		4E8D68E90EDB7C1A00957C30 /* EllipseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EllipseView.m; path = "Shape Views/EllipseView.m"; sourceTree = "<group>"; };
+		4E8D69750EDB90E400957C30 /* RectangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RectangleView.h; path = "Shape Views/RectangleView.h"; sourceTree = "<group>"; };
+		4E8D69760EDB90E400957C30 /* RectangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RectangleView.m; path = "Shape Views/RectangleView.m"; sourceTree = "<group>"; };
+		4E997C780EE33F1300D34E2A /* JBGeometry.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JBGeometry.xcodeproj; path = ../JBGeometry/JBGeometry.xcodeproj; sourceTree = SOURCE_ROOT; };
+		4EAFDEAE0ED92D64000D6A42 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0E9AD80EF73F96009826AC /* JBGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBGeometry.h; path = ../JBGeometry/build/Headers/JBGeometry.h; sourceTree = SOURCE_ROOT; };
+		ED71F13E0ED258FD0034AF74 /* TrigSolv_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigSolv_AppDelegate.h; sourceTree = "<group>"; };
+		ED71F13F0ED258FD0034AF74 /* TrigSolv_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigSolv_AppDelegate.m; sourceTree = "<group>"; };
+		ED71F1410ED259150034AF74 /* DefaultViewControllerConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DefaultViewControllerConfig.plist; sourceTree = "<group>"; };
+		ED71F1430ED259150034AF74 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		ED71F1440ED259150034AF74 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ED71F14C0ED259150034AF74 /* Circle_Diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle_Diagram.png; sourceTree = "<group>"; };
+		ED71F14D0ED259150034AF74 /* Ellipse_Diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ellipse_Diagram.png; sourceTree = "<group>"; };
+		ED71F14E0ED259150034AF74 /* Parallelogram_Diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Parallelogram_Diagram.png; sourceTree = "<group>"; };
+		ED71F1500ED259150034AF74 /* Circle Diagram.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circle Diagram.psd"; sourceTree = "<group>"; };
+		ED71F1510ED259160034AF74 /* Ellipse Diagram.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ellipse Diagram.psd"; sourceTree = "<group>"; };
+		ED71F1520ED259160034AF74 /* Parallelogram Diagram.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Parallelogram Diagram.psd"; sourceTree = "<group>"; };
+		ED71F1530ED259160034AF74 /* Rectangle Diagram.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rectangle Diagram.psd"; sourceTree = "<group>"; };
+		ED71F1560ED259160034AF74 /* Rectangle_Diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rectangle_Diagram.png; sourceTree = "<group>"; };
+		ED71F1670ED259170034AF74 /* icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = icon.psd; sourceTree = "<group>"; };
+		ED71F1680ED259170034AF74 /* redButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButton.png; sourceTree = "<group>"; };
+		ED71F1760ED259170034AF74 /* CircleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleController.h; sourceTree = "<group>"; };
+		ED71F1770ED259170034AF74 /* CircleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleController.m; sourceTree = "<group>"; };
+		ED71F1780ED259170034AF74 /* EllipseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EllipseController.h; sourceTree = "<group>"; };
+		ED71F1790ED259170034AF74 /* EllipseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EllipseController.m; sourceTree = "<group>"; };
+		ED71F17A0ED259170034AF74 /* MeasureEntryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeasureEntryViewController.h; sourceTree = "<group>"; };
+		ED71F17B0ED259170034AF74 /* MeasureEntryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeasureEntryViewController.m; sourceTree = "<group>"; };
+		ED71F17C0ED259170034AF74 /* ParallelogramController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParallelogramController.h; sourceTree = "<group>"; };
+		ED71F17D0ED259170034AF74 /* ParallelogramController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParallelogramController.m; sourceTree = "<group>"; };
+		ED71F17E0ED259170034AF74 /* RectangleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectangleController.h; sourceTree = "<group>"; };
+		ED71F17F0ED259170034AF74 /* RectangleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectangleController.m; sourceTree = "<group>"; };
+		ED71F1800ED259170034AF74 /* ShapeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeController.h; sourceTree = "<group>"; };
+		ED71F1810ED259170034AF74 /* ShapeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeController.m; sourceTree = "<group>"; };
+		ED71F1860ED259170034AF74 /* TrapezoidController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrapezoidController.h; sourceTree = "<group>"; };
+		ED71F1870ED259170034AF74 /* TrapezoidController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrapezoidController.m; sourceTree = "<group>"; };
+		ED71F1880ED259170034AF74 /* TriangleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriangleController.h; sourceTree = "<group>"; };
+		ED71F1890ED259170034AF74 /* TriangleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriangleController.m; sourceTree = "<group>"; };
+		ED71F18B0ED259170034AF74 /* Circle_Tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle_Tabbar.png; sourceTree = "<group>"; };
+		ED71F18C0ED259170034AF74 /* Ellipse_Tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ellipse_Tabbar.png; sourceTree = "<group>"; };
+		ED71F18D0ED259170034AF74 /* Parallelogram_Tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Parallelogram_Tabbar.png; sourceTree = "<group>"; };
+		ED71F18E0ED259170034AF74 /* Rectangle_Tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rectangle_Tabbar.png; sourceTree = "<group>"; };
+		ED71F18F0ED259170034AF74 /* Trapezoid_Tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trapezoid_Tabbar.png; sourceTree = "<group>"; };
+		ED71F1900ED259170034AF74 /* Triangle_Tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Triangle_Tabbar.png; sourceTree = "<group>"; };
+		ED71F1910ED259170034AF74 /* redButton.psd */ = {isa = PBXFileReference; lastKnownFileType = text; path = redButton.psd; sourceTree = "<group>"; };
+		ED71F25A0ED25B870034AF74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED71F27E0ED25BA90034AF74 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EDB3C0040EDCAC1F001E41D2 /* AngleUnitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AngleUnitCell.h; path = "Tableview Cells/AngleUnitCell.h"; sourceTree = "<group>"; };
+		EDB3C0050EDCAC1F001E41D2 /* AngleUnitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AngleUnitCell.m; path = "Tableview Cells/AngleUnitCell.m"; sourceTree = "<group>"; };
+		EDB3C0060EDCAC1F001E41D2 /* ClearValuesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClearValuesCell.h; path = "Tableview Cells/ClearValuesCell.h"; sourceTree = "<group>"; };
+		EDB3C0070EDCAC1F001E41D2 /* ClearValuesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClearValuesCell.m; path = "Tableview Cells/ClearValuesCell.m"; sourceTree = "<group>"; };
+		EDB3C0090EDCAC1F001E41D2 /* MeasureDisplayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeasureDisplayCell.m; path = "Tableview Cells/MeasureDisplayCell.m"; sourceTree = "<group>"; };
+		EDB3C00A0EDCAC1F001E41D2 /* MeasureEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeasureEntryCell.h; path = "Tableview Cells/MeasureEntryCell.h"; sourceTree = "<group>"; };
+		EDB3C00B0EDCAC1F001E41D2 /* MeasureDisplayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeasureDisplayCell.h; path = "Tableview Cells/MeasureDisplayCell.h"; sourceTree = "<group>"; };
+		EDB3C00C0EDCAC1F001E41D2 /* MeasureEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeasureEntryCell.m; path = "Tableview Cells/MeasureEntryCell.m"; sourceTree = "<group>"; };
+		EDB3C00D0EDCAC1F001E41D2 /* ShapeDiagramCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShapeDiagramCell.h; path = "Tableview Cells/ShapeDiagramCell.h"; sourceTree = "<group>"; };
+		EDB3C00E0EDCAC1F001E41D2 /* ShapeDiagramCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShapeDiagramCell.m; path = "Tableview Cells/ShapeDiagramCell.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				ED71F25B0ED25B870034AF74 /* CoreGraphics.framework in Frameworks */,
+				ED71F27F0ED25BA90034AF74 /* QuartzCore.framework in Frameworks */,
+				4E997C840EE33F3700D34E2A /* libJBGeometry.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TrigSolv.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				4E997C780EE33F1300D34E2A /* JBGeometry.xcodeproj */,
+				ED0E9AD80EF73F96009826AC /* JBGeometry.h */,
+				4E8D68D80EDB7BAA00957C30 /* Shape Views */,
+				4E8D667E0EDB45B300957C30 /* TableViewCells */,
+				ED71F1750ED259170034AF74 /* View Controllers */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ED71F13E0ED258FD0034AF74 /* TrigSolv_AppDelegate.h */,
+				ED71F13F0ED258FD0034AF74 /* TrigSolv_AppDelegate.m */,
+				4E76B3C50EE31A4D0043476F /* Defines.h */,
+				4E218E560EDB4450009C18F2 /* UIView+FrameProperties.h */,
+				4E218E550EDB4450009C18F2 /* UIView+FrameProperties.m */,
+				32CA4F630368D1EE00C91783 /* TrigSolv_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED71F18A0ED259170034AF74 /* Tabbar Images */,
+				4EAFDEAE0ED92D64000D6A42 /* MainWindow.xib */,
+				ED71F1910ED259170034AF74 /* redButton.psd */,
+				4E218DE00EDB374C009C18F2 /* Localizable.strings */,
+				ED71F1410ED259150034AF74 /* DefaultViewControllerConfig.plist */,
+				ED71F1430ED259150034AF74 /* icon.png */,
+				ED71F1670ED259170034AF74 /* icon.psd */,
+				ED71F1440ED259150034AF74 /* Default.png */,
+				4E218E180EDB417C009C18F2 /* Settings.bundle */,
+				ED71F1680ED259170034AF74 /* redButton.png */,
+				ED71F14B0ED259150034AF74 /* Shape Diagrams */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED71F27E0ED25BA90034AF74 /* QuartzCore.framework */,
+				ED71F25A0ED25B870034AF74 /* CoreGraphics.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E8D667E0EDB45B300957C30 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				EDB3C0040EDCAC1F001E41D2 /* AngleUnitCell.h */,
+				EDB3C0050EDCAC1F001E41D2 /* AngleUnitCell.m */,
+				EDB3C0060EDCAC1F001E41D2 /* ClearValuesCell.h */,
+				EDB3C0070EDCAC1F001E41D2 /* ClearValuesCell.m */,
+				EDB3C00B0EDCAC1F001E41D2 /* MeasureDisplayCell.h */,
+				EDB3C0090EDCAC1F001E41D2 /* MeasureDisplayCell.m */,
+				EDB3C00A0EDCAC1F001E41D2 /* MeasureEntryCell.h */,
+				EDB3C00C0EDCAC1F001E41D2 /* MeasureEntryCell.m */,
+				EDB3C00D0EDCAC1F001E41D2 /* ShapeDiagramCell.h */,
+				EDB3C00E0EDCAC1F001E41D2 /* ShapeDiagramCell.m */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		4E8D68D80EDB7BAA00957C30 /* Shape Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E8D68D90EDB7BC800957C30 /* TriangleView.h */,
+				4E8D68DA0EDB7BC800957C30 /* TriangleView.m */,
+				4E8D68E20EDB7BF700957C30 /* TrapezoidView.h */,
+				4E8D68E30EDB7BF700957C30 /* TrapezoidView.m */,
+				4E8D68E50EDB7C0700957C30 /* ParallelogramView.h */,
+				4E8D68E60EDB7C0700957C30 /* ParallelogramView.m */,
+				4E8D68E80EDB7C1A00957C30 /* EllipseView.h */,
+				4E8D68E90EDB7C1A00957C30 /* EllipseView.m */,
+				4E8D69750EDB90E400957C30 /* RectangleView.h */,
+				4E8D69760EDB90E400957C30 /* RectangleView.m */,
+			);
+			name = "Shape Views";
+			sourceTree = "<group>";
+		};
+		4E997C790EE33F1300D34E2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E997C7D0EE33F1300D34E2A /* libJBGeometry.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED71F14B0ED259150034AF74 /* Shape Diagrams */ = {
+			isa = PBXGroup;
+			children = (
+				ED71F14C0ED259150034AF74 /* Circle_Diagram.png */,
+				ED71F14D0ED259150034AF74 /* Ellipse_Diagram.png */,
+				ED71F14E0ED259150034AF74 /* Parallelogram_Diagram.png */,
+				ED71F14F0ED259150034AF74 /* Photoshop Documents */,
+				ED71F1560ED259160034AF74 /* Rectangle_Diagram.png */,
+			);
+			path = "Shape Diagrams";
+			sourceTree = "<group>";
+		};
+		ED71F14F0ED259150034AF74 /* Photoshop Documents */ = {
+			isa = PBXGroup;
+			children = (
+				ED71F1500ED259150034AF74 /* Circle Diagram.psd */,
+				ED71F1510ED259160034AF74 /* Ellipse Diagram.psd */,
+				ED71F1520ED259160034AF74 /* Parallelogram Diagram.psd */,
+				ED71F1530ED259160034AF74 /* Rectangle Diagram.psd */,
+			);
+			path = "Photoshop Documents";
+			sourceTree = "<group>";
+		};
+		ED71F1750ED259170034AF74 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED71F1760ED259170034AF74 /* CircleController.h */,
+				ED71F1770ED259170034AF74 /* CircleController.m */,
+				ED71F1780ED259170034AF74 /* EllipseController.h */,
+				ED71F1790ED259170034AF74 /* EllipseController.m */,
+				ED71F17A0ED259170034AF74 /* MeasureEntryViewController.h */,
+				ED71F17B0ED259170034AF74 /* MeasureEntryViewController.m */,
+				ED71F17C0ED259170034AF74 /* ParallelogramController.h */,
+				ED71F17D0ED259170034AF74 /* ParallelogramController.m */,
+				ED71F17E0ED259170034AF74 /* RectangleController.h */,
+				ED71F17F0ED259170034AF74 /* RectangleController.m */,
+				ED71F1800ED259170034AF74 /* ShapeController.h */,
+				ED71F1810ED259170034AF74 /* ShapeController.m */,
+				ED71F1860ED259170034AF74 /* TrapezoidController.h */,
+				ED71F1870ED259170034AF74 /* TrapezoidController.m */,
+				ED71F1880ED259170034AF74 /* TriangleController.h */,
+				ED71F1890ED259170034AF74 /* TriangleController.m */,
+				4E1FE65D0F130B230011DF67 /* TSSolutionViewController.h */,
+				4E1FE65E0F130B230011DF67 /* TSSolutionViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		ED71F18A0ED259170034AF74 /* Tabbar Images */ = {
+			isa = PBXGroup;
+			children = (
+				ED71F18B0ED259170034AF74 /* Circle_Tabbar.png */,
+				ED71F18C0ED259170034AF74 /* Ellipse_Tabbar.png */,
+				ED71F18D0ED259170034AF74 /* Parallelogram_Tabbar.png */,
+				ED71F18E0ED259170034AF74 /* Rectangle_Tabbar.png */,
+				ED71F18F0ED259170034AF74 /* Trapezoid_Tabbar.png */,
+				ED71F1900ED259170034AF74 /* Triangle_Tabbar.png */,
+			);
+			path = "Tabbar Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TrigSolv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TrigSolv" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrigSolv;
+			productName = TrigSolv;
+			productReference = 1D6058910D05DD3D006BFB54 /* TrigSolv.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TrigSolv" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				Spanish,
+				sp,
+				es,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4E997C790EE33F1300D34E2A /* Products */;
+					ProjectRef = 4E997C780EE33F1300D34E2A /* JBGeometry.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TrigSolv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4E997C7D0EE33F1300D34E2A /* libJBGeometry.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libJBGeometry.a;
+			remoteRef = 4E997C7C0EE33F1300D34E2A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED71F2240ED25A7D0034AF74 /* Circle_Diagram.png in Resources */,
+				ED71F2250ED25A7D0034AF74 /* Circle_Tabbar.png in Resources */,
+				ED71F2290ED25A810034AF74 /* Default.png in Resources */,
+				ED71F22A0ED25A820034AF74 /* DefaultViewControllerConfig.plist in Resources */,
+				ED71F22C0ED25A830034AF74 /* Ellipse_Diagram.png in Resources */,
+				ED71F22D0ED25A850034AF74 /* Ellipse_Tabbar.png in Resources */,
+				ED71F2300ED25A8A0034AF74 /* icon.png in Resources */,
+				ED71F2370ED25A930034AF74 /* Parallelogram_Diagram.png in Resources */,
+				ED71F2380ED25A940034AF74 /* Parallelogram_Tabbar.png in Resources */,
+				ED71F23C0ED25A980034AF74 /* Rectangle_Diagram.png in Resources */,
+				ED71F23D0ED25A990034AF74 /* Rectangle_Tabbar.png in Resources */,
+				ED71F2400ED25A9E0034AF74 /* redButton.png in Resources */,
+				ED71F2490ED25AA80034AF74 /* Trapezoid_Tabbar.png in Resources */,
+				ED71F24F0ED25AB60034AF74 /* Triangle_Tabbar.png in Resources */,
+				4EAFDEAF0ED92D64000D6A42 /* MainWindow.xib in Resources */,
+				4E218DE20EDB374C009C18F2 /* Localizable.strings in Resources */,
+				4E218E190EDB417C009C18F2 /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				ED71F1400ED258FD0034AF74 /* TrigSolv_AppDelegate.m in Sources */,
+				ED71F2260ED25A7E0034AF74 /* CircleController.m in Sources */,
+				ED71F22E0ED25A860034AF74 /* EllipseController.m in Sources */,
+				ED71F2350ED25A8E0034AF74 /* MeasureEntryViewController.m in Sources */,
+				ED71F2390ED25A950034AF74 /* ParallelogramController.m in Sources */,
+				ED71F23E0ED25A9C0034AF74 /* RectangleController.m in Sources */,
+				ED71F2430ED25AA10034AF74 /* ShapeController.m in Sources */,
+				ED71F24A0ED25AA90034AF74 /* TrapezoidController.m in Sources */,
+				ED71F2500ED25AB70034AF74 /* TriangleController.m in Sources */,
+				4E218E570EDB4450009C18F2 /* UIView+FrameProperties.m in Sources */,
+				4E8D68DB0EDB7BC800957C30 /* TriangleView.m in Sources */,
+				4E8D68E40EDB7BF700957C30 /* TrapezoidView.m in Sources */,
+				4E8D68E70EDB7C0700957C30 /* ParallelogramView.m in Sources */,
+				4E8D68EA0EDB7C1A00957C30 /* EllipseView.m in Sources */,
+				4E8D69770EDB90E400957C30 /* RectangleView.m in Sources */,
+				EDB3C00F0EDCAC1F001E41D2 /* AngleUnitCell.m in Sources */,
+				EDB3C0100EDCAC1F001E41D2 /* ClearValuesCell.m in Sources */,
+				EDB3C0120EDCAC1F001E41D2 /* MeasureDisplayCell.m in Sources */,
+				EDB3C0130EDCAC1F001E41D2 /* MeasureEntryCell.m in Sources */,
+				EDB3C0140EDCAC1F001E41D2 /* ShapeDiagramCell.m in Sources */,
+				4E1FE65F0F130B230011DF67 /* TSSolutionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E218DE00EDB374C009C18F2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E218DE40EDB3773009C18F2 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: justin Buchanan";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../JBGeometry/build/Mac OS X\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrigSolv_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../JBGeometry/build/Mac OS X\"",
+					"\"$(SRCROOT)/../JBGeometry/build/iPhone Simulator-iphonesimulator\"",
+				);
+				PRODUCT_NAME = TrigSolv;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../JBGeometry/build/Mac OS X\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrigSolv_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../JBGeometry/build/Mac OS X\"",
+					"\"$(SRCROOT)/../JBGeometry/build/iPhone Simulator-iphonesimulator\"",
+				);
+				PRODUCT_NAME = TrigSolv;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: justin Buchanan";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: justin Buchanan";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: justin Buchanan";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: justin Buchanan";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
+			};
+			name = Release;
+		};
+		ED71F1950ED259A90034AF74 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: justin Buchanan";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: justin Buchanan";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "F267F156-7FDC-43C9-9486-B2A40890E00F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F267F156-7FDC-43C9-9486-B2A40890E00F";
+				SDKROOT = iphoneos3.1;
+			};
+			name = Distribution;
+		};
+		ED71F1960ED259A90034AF74 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: justin Buchanan";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../JBGeometry/build/Mac OS X\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrigSolv_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../JBGeometry/build/Mac OS X\"",
+					"\"$(SRCROOT)/../JBGeometry/build/iPhone Simulator-iphonesimulator\"",
+				);
+				PRODUCT_NAME = TrigSolv;
+				PROVISIONING_PROFILE = "A1BAD8DC-40C4-4644-B275-2AB364798AE3";
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TrigSolv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				ED71F1960ED259A90034AF74 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TrigSolv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				ED71F1950ED259A90034AF74 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

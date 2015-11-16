@@ -1,0 +1,71 @@
+//Localized English Strings
+
+"trapezoid" = "Trapezoid";
+"triangle" = "Triangle";
+"rectangle" = "Rectangle";
+"ellipse" = "Ellipse";
+"circle" = "Circle";
+"parallelogram" = "Parallelogram";
+
+
+"angleA" = "Angle A";
+"angleB" = "Angle B";
+"angleC" = "Angle C";
+"angleD" = "Angle D";
+
+"sideAB" = "Side AB";
+"sideBC" = "Side BC";
+"sideAC" = "Side AC";
+"sideCD" = "Side CD";
+"sideAD" = "Side AD";
+
+"focalDistance" = "Focal Distance";
+"majorAxis" = "Major Axis";
+"minorAxis" = "Minor Axis";
+
+"base" = "Base";
+"side" = "Side";
+"height" = "Height";
+
+"area" = "Area";
+"perimeter" = "Perimeter";
+
+"radius" = "Radius";
+"diameter" = "Diameter";
+"circumference" = "Circumference";
+
+
+"radians" = "Radians";
+"degrees" = "Degrees";
+"gradians" = "Gradians";
+
+"radian" = "Radian";
+"degree" = "Degree";
+"gradian" = "Gradian";
+
+
+"clearValues" = "Clear Values";
+"cancel" = "Cancel";
+
+"noSolution" = "No Solution";
+"ok" = "OK";
+
+
+"ellipseInfo" = "The major axis must be larger than the minor axis and the focal distance.";
+"trapezoidInfo" = "Side AB and Side CD are the two parallel sides.  Side AB must be larger than Side CD.";
+"parallelogramInfo" = "Angle A and Angle B are supplements, meaning that they add to make a 180 degree angle.";
+
+"trapezoidError" = "Side CD must be smaller than side AB.";
+"ellipseError" = "The major axis must be larger than the minor axis and the focal distance.";
+
+"angleInfoRadian" = "Angles are in radians.";
+"angleInfoDegree" = "Angles are in degrees.";
+"angleInfoGradian" = "Angles are in gradians.";
+
+/*
+DESCRIPTION:
+
+
+
+
+/*

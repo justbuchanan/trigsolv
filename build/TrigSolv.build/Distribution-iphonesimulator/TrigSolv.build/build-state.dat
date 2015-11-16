@@ -1,0 +1,1263 @@
+TTrigSolv
+v7
+r0
+t278705171.029866
+cCheck dependencies
+cProcessInfoPlistFile "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Info.plist" Info.plist
+cCpResource build/Distribution-iphonesimulator/TrigSolv.app/Circle_Diagram.png "Shape Diagrams/Circle_Diagram.png"
+cCpResource build/Distribution-iphonesimulator/TrigSolv.app/Circle_Tabbar.png "Tabbar Images/Circle_Tabbar.png"
+cCpResource build/Distribution-iphonesimulator/TrigSolv.app/Default.png Default.png
+cCopyPlistFile "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/DefaultViewControllerConfig.plist" DefaultViewControllerConfig.plist
+cCpResource build/Distribution-iphonesimulator/TrigSolv.app/Ellipse_Diagram.png "Shape Diagrams/Ellipse_Diagram.png"
+cCpResource build/Distribution-iphonesimulator/TrigSolv.app/Ellipse_Tabbar.png "Tabbar Images/Ellipse_Tabbar.png"
+cCpResource build/Distribution-iphonesimulator/TrigSolv.app/icon.png icon.png
+cCpResource build/Distribution-iphonesimulator/TrigSolv.app/Parallelogram_Diagram.png "Shape Diagrams/Parallelogram_Diagram.png"
+cCpResource build/Distribution-iphonesimulator/TrigSolv.app/Parallelogram_Tabbar.png "Tabbar Images/Parallelogram_Tabbar.png"
+cCpResource build/Distribution-iphonesimulator/TrigSolv.app/Rectangle_Diagram.png "Shape Diagrams/Rectangle_Diagram.png"
+cCpResource build/Distribution-iphonesimulator/TrigSolv.app/Rectangle_Tabbar.png "Tabbar Images/Rectangle_Tabbar.png"
+cCpResource build/Distribution-iphonesimulator/TrigSolv.app/redButton.png redButton.png
+cCpResource build/Distribution-iphonesimulator/TrigSolv.app/Trapezoid_Tabbar.png "Tabbar Images/Trapezoid_Tabbar.png"
+cCpResource build/Distribution-iphonesimulator/TrigSolv.app/Triangle_Tabbar.png "Tabbar Images/Triangle_Tabbar.png"
+cCompileXIB "/Users/justbuchanan/Projects/TrigSolv iPhone/MainWindow.xib"
+cCopyStringsFile "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/English.lproj/Localizable.strings" English.lproj/Localizable.strings
+cCpResource build/Distribution-iphonesimulator/TrigSolv.app/Settings.bundle Settings.bundle
+cProcessPCH /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch.gch TrigSolv_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/main.o "/Users/justbuchanan/Projects/TrigSolv iPhone/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrigSolv_AppDelegate.o "/Users/justbuchanan/Projects/TrigSolv iPhone/TrigSolv_AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/CircleController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/CircleController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/EllipseController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/EllipseController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/MeasureEntryViewController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/MeasureEntryViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ParallelogramController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ParallelogramController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/RectangleController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/RectangleController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ShapeController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ShapeController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrapezoidController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TrapezoidController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TriangleController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TriangleController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/UIView+FrameProperties.o "/Users/justbuchanan/Projects/TrigSolv iPhone/UIView+FrameProperties.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TriangleView.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TriangleView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrapezoidView.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TrapezoidView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ParallelogramView.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/ParallelogramView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/EllipseView.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/EllipseView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/RectangleView.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/RectangleView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/AngleUnitCell.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/AngleUnitCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ClearValuesCell.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ClearValuesCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/MeasureDisplayCell.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureDisplayCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/MeasureEntryCell.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureEntryCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ShapeDiagramCell.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ShapeDiagramCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TSSolutionViewController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TSSolutionViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/TrigSolv" normal i386
+cGenerateDSYMFile "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app.dSYM" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/TrigSolv"
+cTouch "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004AE22A8700000000000000EE
+t1256336007
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004ABDC85300000000000004FE
+t1253951571
+s1278
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004ABDCAC8000000000000007D
+t1253952200
+s125
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004ABDCB2000000000000E5890
+t1253952288
+s940176
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/math.h
+c000000004748A10600000000000004B7
+t1195942150
+s1207
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/stdio.h
+c000000004748A1330000000000003D1D
+t1195942195
+s15645
+
+N/Users/justbuchanan/Projects/JBGeometry/build/Headers/JBAngleUnit.h
+c000000004932FED60000000000000169
+t1228078806
+s361
+i<math.h>
+i<stdio.h>
+
+N/Users/justbuchanan/Projects/JBGeometry/build/Headers/JBCircleSolver.h
+c000000004933339000000000000005B9
+t1228092304
+s1465
+i<math.h>
+i<Foundation/Foundation.h>
+
+N/Users/justbuchanan/Projects/JBGeometry/build/Headers/JBEllipseSolver.h
+c000000004932F4060000000000000909
+t1228076038
+s2313
+i<math.h>
+i<Foundation/Foundation.h>
+
+N/Users/justbuchanan/Projects/JBGeometry/build/Headers/JBParallelogramSolver.h
+c000000004932F4060000000000000B8A
+t1228076038
+s2954
+i<math.h>
+i"JBTriangleSolver.h"
+i<Foundation/Foundation.h>
+i"JBAngleUnit.h"
+
+N/Users/justbuchanan/Projects/JBGeometry/build/Headers/JBRectangleSolver.h
+c000000004936FAC800000000000007AB
+t1228339912
+s1963
+i<Foundation/Foundation.h>
+
+N/Users/justbuchanan/Projects/JBGeometry/build/Headers/JBTrapezoidSolver.h
+c000000004932F4060000000000000B3D
+t1228076038
+s2877
+i<math.h>
+i"JBTriangleSolver.h"
+i<Foundation/Foundation.h>
+i"JBAngleUnit.h"
+
+N/Users/justbuchanan/Projects/JBGeometry/build/Headers/JBTriangleSolver.h
+c000000004932F4060000000000001035
+t1228076038
+s4149
+i<math.h>
+i<Foundation/Foundation.h>
+i"JBAngleUnit.h"
+
+N/Users/justbuchanan/Projects/JBGeometry/build/iPhone OS-iphonesimulator/libJBGeometry.a
+c00000000495E543C0000000000026EA0
+t1230918716
+s159392
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Headers/JBGeometry.h
+c0000000049526D7A0000000000000160
+t1230138746
+s352
+i"JBAngleUnit.h"
+i"JBCircleSolver.h"
+i"JBEllipseSolver.h"
+i"JBParallelogramSolver.h"
+i"JBRectangleSolver.h"
+i"JBTrapezoidSolver.h"
+i"JBTriangleSolver.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Default.png
+c000000004921E01E0000000000001720
+t1226956830
+s5920
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/DefaultViewControllerConfig.plist
+c000000004914FFC00000000000000164
+t1226112960
+s356
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Defines.h
+c000000004A8B582E00000000000002D9
+t1250646062
+s729
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/English.lproj/Localizable.strings
+c00000000494EE64800000000000005FF
+t1229907528
+s1535
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/MainWindow.xib
+c00000000496E52260000000000001DF5
+t1231966758
+s7669
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Settings.bundle
+c000000004A27311800000000000000CC
+t1244082456
+s204
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Diagrams/Circle_Diagram.png
+c00000000491A23980000000000002FC5
+t1226449816
+s12229
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Diagrams/Ellipse_Diagram.png
+c00000000491A23E00000000000003D19
+t1226449888
+s15641
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Diagrams/Parallelogram_Diagram.png
+c00000000491A24300000000000001A65
+t1226449968
+s6757
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Diagrams/Rectangle_Diagram.png
+c00000000491A245C0000000000001E59
+t1226450012
+s7769
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/EllipseView.h
+c0000000049C464060000000000000191
+t1237607430
+s401
+i<UIKit/UIKit.h>
+i"Defines.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/EllipseView.m
+c000000004965666C0000000000000E79
+t1231382124
+s3705
+i"EllipseView.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/ParallelogramView.h
+c0000000049C464280000000000000277
+t1237607464
+s631
+i<UIKit/UIKit.h>
+i"Defines.h"
+i"UIView+FrameProperties.h"
+i"JBGeometry.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/ParallelogramView.m
+c00000000496566A4000000000000190D
+t1231382180
+s6413
+i"ParallelogramView.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/RectangleView.h
+c0000000049C4641C0000000000000170
+t1237607452
+s368
+i<UIKit/UIKit.h>
+i"Defines.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/RectangleView.m
+c00000000496566860000000000000AD5
+t1231382150
+s2773
+i"RectangleView.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TrapezoidView.h
+c0000000049C463FE00000000000002B5
+t1237607422
+s693
+i<UIKit/UIKit.h>
+i"JBGeometry.h"
+i"UIView+FrameProperties.h"
+i"Defines.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TrapezoidView.m
+c00000000495B974A0000000000001BA2
+t1230739274
+s7074
+i"TrapezoidView.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TriangleView.h
+c0000000049C463FA0000000000000286
+t1237607418
+s646
+i<UIKit/UIKit.h>
+i"JBGeometry.h"
+i"UIView+FrameProperties.h"
+i"Defines.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TriangleView.m
+c000000004AEC7CD900000000000017EE
+t1257012441
+s6126
+i"TriangleView.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Circle_Tabbar.png
+c0000000048DBEF5A000000000000021D
+t1222373210
+s541
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Ellipse_Tabbar.png
+c0000000048DBFE2E00000000000001D8
+t1222377006
+s472
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Parallelogram_Tabbar.png
+c0000000048DC02740000000000000152
+t1222378100
+s338
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Rectangle_Tabbar.png
+c0000000048DBF02200000000000000E0
+t1222373410
+s224
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Trapezoid_Tabbar.png
+c0000000048DBFDB80000000000000189
+t1222376888
+s393
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Triangle_Tabbar.png
+c0000000048DBEE6400000000000001E6
+t1222372964
+s486
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/AngleUnitCell.h
+c0000000049D6DA760000000000000150
+t1238817398
+s336
+i<UIKit/UIKit.h>
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/AngleUnitCell.m
+c000000004AEC7B6C00000000000007C9
+t1257012076
+s1993
+i"AngleUnitCell.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ClearValuesCell.h
+c0000000049D621300000000000000201
+t1238769968
+s513
+i<UIKit/UIKit.h>
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ClearValuesCell.m
+c000000004AEC692A0000000000000722
+t1257007402
+s1826
+i"ClearValuesCell.h"
+i"ShapeController.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureDisplayCell.h
+c000000004AEC740D000000000000021C
+t1257010189
+s540
+i<UIKit/UIKit.h>
+i"Defines.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureDisplayCell.m
+c000000004AEC73F300000000000005C2
+t1257010163
+s1474
+i"MeasureDisplayCell.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureEntryCell.h
+c0000000049C463EC0000000000000374
+t1237607404
+s884
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<QuartzCore/QuartzCore.h>
+i"Defines.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureEntryCell.m
+c000000004AEC797C0000000000000FE8
+t1257011580
+s4072
+i"MeasureEntryCell.h"
+i"MeasureEntryViewController.h"
+i"ShapeController.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ShapeDiagramCell.h
+c000000004A89CE82000000000000019C
+t1250545282
+s412
+i<UIKit/UIKit.h>
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ShapeDiagramCell.m
+c000000004AEC71C9000000000000040C
+t1257009609
+s1036
+i"ShapeDiagramCell.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/TrigSolv_AppDelegate.h
+c00000000496E4E880000000000000302
+t1231965832
+s770
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i"ShapeController.h"
+i"TriangleController.h"
+i"RectangleController.h"
+i"ParallelogramController.h"
+i"CircleController.h"
+i"EllipseController.h"
+i"TrapezoidController.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/TrigSolv_AppDelegate.m
+c000000004AC90F5F0000000000001226
+t1254690655
+s4646
+i"TrigSolv_AppDelegate.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/TrigSolv_Prefix.pch
+c000000004922131600000000000000B1
+t1226969878
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/UIView+FrameProperties.h
+c0000000048EE772800000000000002CE
+t1223587624
+s718
+i<UIKit/UIKit.h>
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/UIView+FrameProperties.m
+c0000000048EE78280000000000000677
+t1223587880
+s1655
+i"UIView+FrameProperties.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/CircleController.h
+c000000004A89CEA300000000000000F1
+t1250545315
+s241
+i"ShapeController.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/CircleController.m
+c000000004A89CF970000000000001785
+t1250545559
+s6021
+i"CircleController.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/EllipseController.h
+c0000000049D6D0640000000000000104
+t1238814820
+s260
+i"ShapeController.h"
+i"EllipseView.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/EllipseController.m
+c000000004A8B57DB00000000000017C8
+t1250645979
+s6088
+i"EllipseController.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/MeasureEntryViewController.h
+c000000004AEC774C00000000000002DC
+t1257011020
+s732
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"MeasureEntryCell.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/MeasureEntryViewController.m
+c000000004AEC7761000000000000078C
+t1257011041
+s1932
+i"MeasureEntryViewController.h"
+i"ShapeController.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ParallelogramController.h
+c0000000049320F740000000000000122
+t1228017524
+s290
+i"ShapeController.h"
+i"ParallelogramView.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ParallelogramController.m
+c000000004A8B57F4000000000000204E
+t1250646004
+s8270
+i"ParallelogramController.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/RectangleController.h
+c0000000049C463DE0000000000000112
+t1237607390
+s274
+i"ShapeController.h"
+i"RectangleView.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/RectangleController.m
+c000000004A89CF750000000000001284
+t1250545525
+s4740
+i"RectangleController.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ShapeController.h
+c0000000049C463D200000000000004C4
+t1237607378
+s1220
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<QuartzCore/QuartzCore.h>
+i"MeasureEntryCell.h"
+i"MeasureDisplayCell.h"
+i"MeasureEntryViewController.h"
+i"TSSolutionViewController.h"
+i"AngleUnitCell.h"
+i"ShapeDiagramCell.h"
+i"ClearValuesCell.h"
+i"JBGeometry.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ShapeController.m
+c000000004A8B51AB00000000000011CE
+t1250644395
+s4558
+i"ShapeController.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TSSolutionViewController.h
+c000000004A8B5903000000000000053B
+t1250646275
+s1339
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"MeasureDisplayCell.h"
+i"ShapeDiagramCell.h"
+i"JBGeometry.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TSSolutionViewController.m
+c000000004A8B59960000000000001C11
+t1250646422
+s7185
+i"TSSolutionViewController.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TrapezoidController.h
+c00000000492C41BA0000000000000110
+t1227637178
+s272
+i"ShapeController.h"
+i"TrapezoidView.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TrapezoidController.m
+c000000004A89E55A0000000000003491
+t1250551130
+s13457
+i"TrapezoidController.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TriangleController.h
+c000000004A89CF1A000000000000010F
+t1250545434
+s271
+i"ShapeController.h"
+i"TriangleView.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TriangleController.m
+c000000004A8B58040000000000002884
+t1250646020
+s10372
+i"TriangleController.h"
+i"Defines.h"
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app
+t1257012371
+s748
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app.dSYM
+t1257012371
+s102
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Circle_Diagram.png
+t1257012368
+s12229
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Circle_Tabbar.png
+t1257012368
+s541
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Default.png
+t1257012368
+s5920
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/DefaultViewControllerConfig.plist
+t1257012368
+s112
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Ellipse_Diagram.png
+t1257012368
+s15641
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Ellipse_Tabbar.png
+t1257012368
+s472
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/English.lproj/Localizable.strings
+t1257012368
+s1413
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Info.plist
+t1257012368
+s596
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/MainWindow.nib
+t1257012368
+s1347
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Parallelogram_Diagram.png
+t1257012368
+s6757
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Parallelogram_Tabbar.png
+t1257012368
+s338
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/PkgInfo
+t1257012368
+s8
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Rectangle_Diagram.png
+t1257012368
+s7769
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Rectangle_Tabbar.png
+t1257012368
+s224
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Settings.bundle
+t1257012368
+s204
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Trapezoid_Tabbar.png
+t1257012368
+s393
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Triangle_Tabbar.png
+t1257012368
+s486
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/TrigSolv
+t1257012370
+s171792
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/icon.png
+t1257012368
+s6421
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/redButton.png
+t1257012368
+s1895
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/AngleUnitCell.o
+t1257012370
+s23996
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/CircleController.o
+t1257012369
+s44948
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ClearValuesCell.o
+t1257012370
+s36832
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/EllipseController.o
+t1257012369
+s46428
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/EllipseView.o
+t1257012370
+s16172
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/MeasureDisplayCell.o
+t1257012370
+s21780
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/MeasureEntryCell.o
+t1257012370
+s41716
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/MeasureEntryViewController.o
+t1257012369
+s39204
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ParallelogramController.o
+t1257012369
+s48780
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ParallelogramView.o
+t1257012370
+s21772
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/RectangleController.o
+t1257012369
+s43860
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/RectangleView.o
+t1257012370
+s14832
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ShapeController.o
+t1257012369
+s55132
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ShapeDiagramCell.o
+t1257012370
+s19808
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TSSolutionViewController.o
+t1257012370
+s55676
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrapezoidController.o
+t1257012369
+s55756
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrapezoidView.o
+t1257012370
+s22948
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TriangleController.o
+t1257012370
+s51564
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TriangleView.o
+t1257012370
+s21368
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrigSolv.LinkFileList
+c000000004AEC7C8F0000000000000CDD
+t1257012367
+s3293
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrigSolv_AppDelegate.o
+t1257012369
+s51472
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/UIView+FrameProperties.o
+t1257012369
+s13840
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/main.o
+t1257012368
+s5948
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/icon.png
+c000000004921CEF40000000000001915
+t1226952436
+s6421
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/main.m
+c000000003FAAE98C0000000000000162
+t1068165516
+s354
+i<UIKit/UIKit.h>
+
+N/Users/justbuchanan/Projects/TrigSolv iPhone/redButton.png
+c000000004920C6640000000000000767
+t1226884708
+s1895
+
+N/var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch.gch
+t1257012368
+s12740048
+
+NInfo.plist
+c000000003FAD598C000000000000036A
+t1068325260
+s874
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies278705167#278705167#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/AngleUnitCell.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/AngleUnitCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705170.445818
+e278705170.558508
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/AngleUnitCell.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/AngleUnitCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/AngleUnitCell.m278705170#278705170#0(0"0(0#0#76"/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/AngleUnitCell.m4300885448#2159"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/AngleUnitCell.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/AngleUnitCell.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/CircleController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/CircleController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705168.954479
+e278705169.165488
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/CircleController.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/CircleController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/CircleController.m278705168#278705169#0(0"0(0#0#80"/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/CircleController.m4300885448#2166"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/CircleController.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/CircleController.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ClearValuesCell.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ClearValuesCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705170.478958
+e278705170.600598
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ClearValuesCell.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ClearValuesCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ClearValuesCell.m278705170#278705170#0(0"0(0#0#78"/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ClearValuesCell.m4300885448#2163"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ClearValuesCell.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ClearValuesCell.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/EllipseController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/EllipseController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705169.104309
+e278705169.315312
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/EllipseController.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/EllipseController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/EllipseController.m278705169#278705169#0(0"0(0#0#81"/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/EllipseController.m4300885448#2168"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/EllipseController.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/EllipseController.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/EllipseView.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/EllipseView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705170.272707
+e278705170.445727
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/EllipseView.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/EllipseView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/EllipseView.m278705170#278705170#0(0"0(0#0#70"/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/EllipseView.m4300885448#2151"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/EllipseView.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/EllipseView.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/MeasureDisplayCell.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureDisplayCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705170.558602
+e278705170.663179
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/MeasureDisplayCell.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureDisplayCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureDisplayCell.m278705170#278705170#0(0"0(0#0#81"/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureDisplayCell.m4300885448#2169"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureDisplayCell.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/MeasureDisplayCell.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/MeasureEntryCell.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureEntryCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705170.600699
+e278705170.771825
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/MeasureEntryCell.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureEntryCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureEntryCell.m278705170#278705170#0(0"0(0#0#79"/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureEntryCell.m4300885448#2165"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/MeasureEntryCell.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/MeasureEntryCell.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/MeasureEntryViewController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/MeasureEntryViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705169.165581
+e278705169.278828
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/MeasureEntryViewController.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/MeasureEntryViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/MeasureEntryViewController.m278705169#278705169#0(0"0(0#0#90"/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/MeasureEntryViewController.m4300885448#2186"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/MeasureEntryViewController.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/MeasureEntryViewController.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ParallelogramController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ParallelogramController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705169.278921
+e278705169.507895
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ParallelogramController.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ParallelogramController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ParallelogramController.m278705169#278705169#0(0"0(0#0#87"/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ParallelogramController.m4300885448#2180"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ParallelogramController.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ParallelogramController.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ParallelogramView.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/ParallelogramView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705170.195552
+e278705170.353495
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ParallelogramView.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/ParallelogramView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/ParallelogramView.m278705170#278705170#0(0"0(0#0#76"/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/ParallelogramView.m4300885448#2163"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/ParallelogramView.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ParallelogramView.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/RectangleController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/RectangleController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705169.315407
+e278705169.473537
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/RectangleController.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/RectangleController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/RectangleController.m278705169#278705169#0(0"0(0#0#83"/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/RectangleController.m4300885448#2172"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/RectangleController.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/RectangleController.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/RectangleView.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/RectangleView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705170.353576
+e278705170.478876
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/RectangleView.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/RectangleView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/RectangleView.m278705170#278705170#0(0"0(0#0#72"/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/RectangleView.m4300885448#2155"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/RectangleView.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/RectangleView.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ShapeController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ShapeController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705169.473845
+e278705169.684169
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ShapeController.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ShapeController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ShapeController.m278705169#278705169#0(0"0(0#0#79"/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ShapeController.m4300885448#2164"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/ShapeController.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ShapeController.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ShapeDiagramCell.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ShapeDiagramCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705170.663274
+e278705170.749123
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ShapeDiagramCell.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ShapeDiagramCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ShapeDiagramCell.m278705170#278705170#0(0"0(0#0#79"/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ShapeDiagramCell.m4300885448#2165"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/Tableview Cells/ShapeDiagramCell.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/ShapeDiagramCell.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TSSolutionViewController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TSSolutionViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705170.749213
+e278705170.947747
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TSSolutionViewController.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TSSolutionViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TSSolutionViewController.m278705170#278705170#0(0"0(0#0#88"/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TSSolutionViewController.m4300885448#2182"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TSSolutionViewController.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TSSolutionViewController.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrapezoidController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TrapezoidController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705169.508131
+e278705169.884071
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrapezoidController.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TrapezoidController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TrapezoidController.m278705169#278705169#0(0"0(0#0#83"/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TrapezoidController.m4300885448#2172"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TrapezoidController.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrapezoidController.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrapezoidView.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TrapezoidView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705170.050751
+e278705170.272613
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrapezoidView.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TrapezoidView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TrapezoidView.m278705170#278705170#0(0"0(0#0#72"/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TrapezoidView.m4300885448#2155"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TrapezoidView.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrapezoidView.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TriangleController.o "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TriangleController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705169.684269
+e278705170.050650
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TriangleController.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TriangleController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TriangleController.m278705169#278705170#0(0"0(0#0#82"/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TriangleController.m4300885448#2170"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/View Controllers/TriangleController.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TriangleController.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TriangleView.o "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TriangleView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705170.001212
+e278705170.195460
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TriangleView.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TriangleView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TriangleView.m278705170#278705170#0(0"0(0#0#71"/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TriangleView.m4300885448#2153"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Views/TriangleView.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TriangleView.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrigSolv_AppDelegate.o "/Users/justbuchanan/Projects/TrigSolv iPhone/TrigSolv_AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705168.903247
+e278705169.104218
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrigSolv_AppDelegate.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/TrigSolv_AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/TrigSolv_AppDelegate.m278705168#278705169#0(0"0(0#0#67"/Users/justbuchanan/Projects/TrigSolv iPhone/TrigSolv_AppDelegate.m4300885448#2157"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/TrigSolv_AppDelegate.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrigSolv_AppDelegate.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/UIView+FrameProperties.o "/Users/justbuchanan/Projects/TrigSolv iPhone/UIView+FrameProperties.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705169.884161
+e278705170.001123
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/UIView+FrameProperties.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/UIView+FrameProperties.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/UIView+FrameProperties.m278705169#278705170#0(0"0(0#0#69"/Users/justbuchanan/Projects/TrigSolv iPhone/UIView+FrameProperties.m4300885448#2161"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/UIView+FrameProperties.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/UIView+FrameProperties.o"0#
+
+CCompileC build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/main.o "/Users/justbuchanan/Projects/TrigSolv iPhone/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705168.902182
+e278705168.954376
+r1
+xCompileC
+xbuild/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/main.o
+x/Users/justbuchanan/Projects/TrigSolv iPhone/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/justbuchanan/Projects/TrigSolv iPhone/main.m278705168#278705168#0(0"0(0#0#51"/Users/justbuchanan/Projects/TrigSolv iPhone/main.m4300885448#2125"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -include /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/main.m" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/justbuchanan/Projects/TrigSolv iPhone/MainWindow.xib"
+s278705168.055532
+e278705168.355571
+r1
+xCompileXIB
+x/Users/justbuchanan/Projects/TrigSolv iPhone/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib278705168#278705168#0(0"0(0#0#59"/Users/justbuchanan/Projects/TrigSolv iPhone/MainWindow.xib4300885448#514"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/MainWindow.nib" "/Users/justbuchanan/Projects/TrigSolv iPhone/MainWindow.xib"0#
+
+CCopyPlistFile "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/DefaultViewControllerConfig.plist" DefaultViewControllerConfig.plist
+s278705168.012822
+e278705168.193861
+r1
+xCopyPlistFile
+x/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/DefaultViewControllerConfig.plist
+xDefaultViewControllerConfig.plist
+lSLF07#2@38"Copy DefaultViewControllerConfig.plist278705168#278705168#0(0"0(0#0#78"/Users/justbuchanan/Projects/TrigSolv iPhone/DefaultViewControllerConfig.plist4300885448#432"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 DefaultViewControllerConfig.plist --outdir "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
+CCopyStringsFile "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/English.lproj/Localizable.strings" English.lproj/Localizable.strings
+s278705168.193946
+e278705168.222245
+r1
+xCopyStringsFile
+x/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/English.lproj/Localizable.strings
+xEnglish.lproj/Localizable.strings
+lSLF07#2@38"Copy English.lproj/Localizable.strings278705168#278705168#0(0"0(0#0#78"/Users/justbuchanan/Projects/TrigSolv iPhone/English.lproj/Localizable.strings4300885448#519"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary English.lproj/Localizable.strings --outdir "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/English.lproj"0#
+
+CCpResource build/Distribution-iphonesimulator/TrigSolv.app/Circle_Diagram.png "Shape Diagrams/Circle_Diagram.png"
+s278705168.007405
+e278705168.013558
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/TrigSolv.app/Circle_Diagram.png
+xShape Diagrams/Circle_Diagram.png
+lSLF07#2@38"Copy Shape Diagrams/Circle_Diagram.png278705168#278705168#0(0"0(0#0#78"/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Diagrams/Circle_Diagram.png4300885448#530"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Diagrams/Circle_Diagram.png" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
+CCpResource build/Distribution-iphonesimulator/TrigSolv.app/Circle_Tabbar.png "Tabbar Images/Circle_Tabbar.png"
+s278705168.008095
+e278705168.016932
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/TrigSolv.app/Circle_Tabbar.png
+xTabbar Images/Circle_Tabbar.png
+lSLF07#2@36"Copy Tabbar Images/Circle_Tabbar.png278705168#278705168#0(0"0(0#0#76"/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Circle_Tabbar.png4300885448#528"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Circle_Tabbar.png" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
+CCpResource build/Distribution-iphonesimulator/TrigSolv.app/Default.png Default.png
+s278705168.012212
+e278705168.017209
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/TrigSolv.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png278705168#278705168#0(0"0(0#0#56"/Users/justbuchanan/Projects/TrigSolv iPhone/Default.png4300885448#508"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/justbuchanan/Projects/TrigSolv iPhone/Default.png" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
+CCpResource build/Distribution-iphonesimulator/TrigSolv.app/Ellipse_Diagram.png "Shape Diagrams/Ellipse_Diagram.png"
+s278705168.017274
+e278705168.034690
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/TrigSolv.app/Ellipse_Diagram.png
+xShape Diagrams/Ellipse_Diagram.png
+lSLF07#2@39"Copy Shape Diagrams/Ellipse_Diagram.png278705168#278705168#0(0"0(0#0#79"/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Diagrams/Ellipse_Diagram.png4300885448#531"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Diagrams/Ellipse_Diagram.png" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
+CCpResource build/Distribution-iphonesimulator/TrigSolv.app/Ellipse_Tabbar.png "Tabbar Images/Ellipse_Tabbar.png"
+s278705168.017893
+e278705168.034816
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/TrigSolv.app/Ellipse_Tabbar.png
+xTabbar Images/Ellipse_Tabbar.png
+lSLF07#2@37"Copy Tabbar Images/Ellipse_Tabbar.png278705168#278705168#0(0"0(0#0#77"/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Ellipse_Tabbar.png4300885448#529"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Ellipse_Tabbar.png" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
+CCpResource build/Distribution-iphonesimulator/TrigSolv.app/Parallelogram_Diagram.png "Shape Diagrams/Parallelogram_Diagram.png"
+s278705168.021331
+e278705168.035031
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/TrigSolv.app/Parallelogram_Diagram.png
+xShape Diagrams/Parallelogram_Diagram.png
+lSLF07#2@45"Copy Shape Diagrams/Parallelogram_Diagram.png278705168#278705168#0(0"0(0#0#85"/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Diagrams/Parallelogram_Diagram.png4300885448#537"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Diagrams/Parallelogram_Diagram.png" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
+CCpResource build/Distribution-iphonesimulator/TrigSolv.app/Parallelogram_Tabbar.png "Tabbar Images/Parallelogram_Tabbar.png"
+s278705168.023711
+e278705168.035148
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/TrigSolv.app/Parallelogram_Tabbar.png
+xTabbar Images/Parallelogram_Tabbar.png
+lSLF07#2@43"Copy Tabbar Images/Parallelogram_Tabbar.png278705168#278705168#0(0"0(0#0#83"/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Parallelogram_Tabbar.png4300885448#535"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Parallelogram_Tabbar.png" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
+CCpResource build/Distribution-iphonesimulator/TrigSolv.app/Rectangle_Diagram.png "Shape Diagrams/Rectangle_Diagram.png"
+s278705168.025342
+e278705168.035665
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/TrigSolv.app/Rectangle_Diagram.png
+xShape Diagrams/Rectangle_Diagram.png
+lSLF07#2@41"Copy Shape Diagrams/Rectangle_Diagram.png278705168#278705168#0(0"0(0#0#81"/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Diagrams/Rectangle_Diagram.png4300885448#533"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/justbuchanan/Projects/TrigSolv iPhone/Shape Diagrams/Rectangle_Diagram.png" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
+CCpResource build/Distribution-iphonesimulator/TrigSolv.app/Rectangle_Tabbar.png "Tabbar Images/Rectangle_Tabbar.png"
+s278705168.029266
+e278705168.056480
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/TrigSolv.app/Rectangle_Tabbar.png
+xTabbar Images/Rectangle_Tabbar.png
+lSLF07#2@39"Copy Tabbar Images/Rectangle_Tabbar.png278705168#278705168#0(0"0(0#0#79"/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Rectangle_Tabbar.png4300885448#531"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Rectangle_Tabbar.png" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
+CCpResource build/Distribution-iphonesimulator/TrigSolv.app/Settings.bundle Settings.bundle
+s278705168.222321
+e278705168.239520
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/TrigSolv.app/Settings.bundle
+xSettings.bundle
+lSLF07#2@20"Copy Settings.bundle278705168#278705168#0(0"0(0#0#60"/Users/justbuchanan/Projects/TrigSolv iPhone/Settings.bundle4300885448#512"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/justbuchanan/Projects/TrigSolv iPhone/Settings.bundle" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
+CCpResource build/Distribution-iphonesimulator/TrigSolv.app/Trapezoid_Tabbar.png "Tabbar Images/Trapezoid_Tabbar.png"
+s278705168.031603
+e278705168.057420
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/TrigSolv.app/Trapezoid_Tabbar.png
+xTabbar Images/Trapezoid_Tabbar.png
+lSLF07#2@39"Copy Tabbar Images/Trapezoid_Tabbar.png278705168#278705168#0(0"0(0#0#79"/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Trapezoid_Tabbar.png4300885448#531"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Trapezoid_Tabbar.png" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
+CCpResource build/Distribution-iphonesimulator/TrigSolv.app/Triangle_Tabbar.png "Tabbar Images/Triangle_Tabbar.png"
+s278705168.035738
+e278705168.056374
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/TrigSolv.app/Triangle_Tabbar.png
+xTabbar Images/Triangle_Tabbar.png
+lSLF07#2@38"Copy Tabbar Images/Triangle_Tabbar.png278705168#278705168#0(0"0(0#0#78"/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Triangle_Tabbar.png4300885448#530"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/justbuchanan/Projects/TrigSolv iPhone/Tabbar Images/Triangle_Tabbar.png" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
+CCpResource build/Distribution-iphonesimulator/TrigSolv.app/icon.png icon.png
+s278705168.019482
+e278705168.034914
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/TrigSolv.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png278705168#278705168#0(0"0(0#0#53"/Users/justbuchanan/Projects/TrigSolv iPhone/icon.png4300885448#505"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/justbuchanan/Projects/TrigSolv iPhone/icon.png" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
+CCpResource build/Distribution-iphonesimulator/TrigSolv.app/redButton.png redButton.png
+s278705168.031047
+e278705168.056569
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/TrigSolv.app/redButton.png
+xredButton.png
+lSLF07#2@18"Copy redButton.png278705168#278705168#0(0"0(0#0#58"/Users/justbuchanan/Projects/TrigSolv iPhone/redButton.png4300885448#510"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/justbuchanan/Projects/TrigSolv iPhone/redButton.png" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
+CGenerateDSYMFile "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app.dSYM" "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/TrigSolv"
+s278705170.987310
+e278705171.026506
+r1
+xGenerateDSYMFile
+x/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app.dSYM
+x/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/TrigSolv
+lSLF07#2@126"GenerateDSYMFile build/Distribution-iphonesimulator/TrigSolv.app.dSYM build/Distribution-iphonesimulator/TrigSolv.app/TrigSolv278705170#278705171#0(0"0(0#0#101"/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/TrigSolv4300885448#424"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/TrigSolv" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app.dSYM"0#
+
+CLd "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/TrigSolv" normal i386
+s278705170.947837
+e278705170.987214
+r1
+xLd
+x/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/TrigSolv
+xnormal
+xi386
+lSLF07#2@106"Link /Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/TrigSolv278705170#278705170#0(0"0(0#0#0"4300885448#1307"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk "-L/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-L/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-L/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/iPhone Simulator-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" -filelist "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/Objects-normal/i386/TrigSolv.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore "/Users/justbuchanan/Projects/JBGeometry/build/iPhone OS-iphonesimulator/libJBGeometry.a" -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/TrigSolv"0#
+
+CProcessInfoPlistFile "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Info.plist" Info.plist
+s278705167.996583
+e278705168.007299
+r1
+xProcessInfoPlistFile
+x/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist278705167#278705168#0(0"0(0#0#55"/Users/justbuchanan/Projects/TrigSolv iPhone/Info.plist4300885448#511"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app/Info.plist"0#
+
+CProcessPCH /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch.gch TrigSolv_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s278705168.355693
+e278705168.902061
+r1
+xProcessPCH
+x/var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch.gch
+xTrigSolv_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile TrigSolv_Prefix.pch278705168#278705168#0(0"0(0#0#64"/Users/justbuchanan/Projects/TrigSolv iPhone/TrigSolv_Prefix.pch4300885448#2001"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-generated-files.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-own-target-headers.hmap" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-all-target-headers.hmap" -iquote "/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/TrigSolv-project-headers.hmap" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator" "-F/Users/justbuchanan/Projects/TrigSolv iPhone/../JBGeometry/build/Mac OS X" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/include" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources/i386" "-I/Users/justbuchanan/Projects/TrigSolv iPhone/build/TrigSolv.build/Distribution-iphonesimulator/TrigSolv.build/DerivedSources" -c "/Users/justbuchanan/Projects/TrigSolv iPhone/TrigSolv_Prefix.pch" -o /var/folders/uK/uKOyK92YEHiYUQ1AcPVTTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TrigSolv_Prefix-etaxratwgcxtwogciyqnlkqeiyco/TrigSolv_Prefix.pch.gch0#
+
+CTouch "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"
+s278705171.026697
+e278705171.029837
+r1
+xTouch
+x/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app
+lSLF07#2@98"Touch /Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app278705171#278705171#0(0"0(0#0#0"4300885448#302"    cd "/Users/justbuchanan/Projects/TrigSolv iPhone"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/justbuchanan/Projects/TrigSolv iPhone/build/Distribution-iphonesimulator/TrigSolv.app"0#
+
